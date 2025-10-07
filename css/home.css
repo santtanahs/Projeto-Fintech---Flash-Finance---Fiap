@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #C6BEEF;
+
+}
+.flash_logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: #5848a9 0 0 30px 2px;
+
+
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Deixando itens empilhados 1 embaixo do outro */
+    gap: 20px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #5848a9;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.8rem;
+    color: #5848a9;
+    text-align: center;
+    max-width: 600px;
+}
+
+.login_register {
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Deixando itens empilhados 1 embaixo do outro */
+    gap: 20px;    
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #5848a9;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    /* transition: background-color 5s ease; */
+    text-decoration: none; /* Remover sublinhado do link */
+    box-shadow: #5848a9 0 0 12px 2px;
+}
+
+.btn:hover {
+    background-color: #7c6edc;
+    box-shadow: #7c6edc 0 0 20px 3px;
+    /* transition: background-color 0.1s ease, box-shadow 0.1s ease; */
+    /* transform: translateY(-4px); */
+    transform: translate(3px, -4px);
+}
