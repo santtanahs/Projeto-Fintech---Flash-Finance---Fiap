@@ -1,21 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
-body {
-    background-color: #C6BEEF;
-
-}
 .flash_logo {
     width: 200px;
     height: 200px;
     margin: 20px auto;
     border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: #5848a9 0 0 30px 2px;
+    box-shadow: var(--box-shadow) 0 0 30px 2px;
 
 
     /* object-fit: cover; */
@@ -33,13 +23,13 @@ body {
 
 .container h1 {
     font-size: 3rem;
-    color: #5848a9;
+    color: var(--primary-color);
     text-align: center;
 }
 
 .container p {
     font-size: 1.8rem;
-    color: #5848a9;
+    color: var(--primary-color);
     text-align: center;
     max-width: 600px;
 }
@@ -57,19 +47,21 @@ body {
 .btn {
     padding: 10px 20px;
     font-size: 1.2rem;
-    color: #fff;
-    background-color: #5848a9;
+    color: var(--letter);
+    background-color: var(--primary-color);
     border: none;
     border-radius: 7px;
     cursor: pointer;
     /* transition: background-color 5s ease; */
     text-decoration: none; /* Remover sublinhado do link */
-    box-shadow: #5848a9 0 0 12px 2px;
+    box-shadow: var(--primary-color) 0 0 12px 2px;
 }
 
 .btn:hover {
-    background-color: #7c6edc;
-    box-shadow: #7c6edc 0 0 20px 3px;
+    background-color: var(--secondary-color);
+    box-shadow: var(--secondary-color) 0 0 20px 3px;
+    color: #e7d5ff;
+    /* text-transform: uppercase; */
     /* transition: background-color 0.1s ease, box-shadow 0.1s ease; */
     /* transform: translateY(-4px); */
     transform: translate(3px, -4px);
