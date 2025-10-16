@@ -1,0 +1,116 @@
+
+.flash_logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: var(--box-shadow) 0 0 30px 2px;
+
+
+    /* object-fit: cover; */
+    /* object-position: center; */
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Deixando itens empilhados 1 embaixo do outro */
+    gap: 20px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: var(--secundary-color2);
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.8rem;
+    color: var(--secundary-color2);
+    text-align: center;
+    max-width: 600px;
+}
+
+/* .login_register {
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Deixando itens empilhados 1 embaixo do outro */
+    /* gap: 20px;     */
+/* } */
+
+.form {
+    padding: 10px 1px;
+    /* width: 300px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 15px; */
+    /* margin: 10px; */
+}
+
+/* Estilos para o formulário como um todo (opcional, mas útil) */
+.cadastro-form {
+    display: flex; /* Para organizar os itens em coluna */
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    gap: 15px; /* Espaço entre os campos e o botão */
+    width: 80%; /* Largura do formulário, ajuste conforme necessário */
+    max-width: 400px; /* Largura máxima para não ficar muito grande em telas largas */
+    margin: 20px auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Espaçamento interno se quiser uma área de fundo para o form */
+    /* background-color: rgba(255, 255, 255, 0.1); */ /* Exemplo de fundo levemente transparente */
+    /* border-radius: 10px; */ /* Bordas arredondadas */
+}
+
+/* Estilos para os campos de entrada (input) */
+.input-field {
+    width: 100%; /* Ocupa toda a largura disponível do .cadastro-form */
+    padding: 15px; /* Aumenta a altura e o espaçamento interno do texto */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 8px; /* Bordas mais arredondadas para um visual moderno */
+    box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura total */
+    background-color: #f9f9f9; /* Fundo mais claro para os campos */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos para o placeholder (o texto "Nome completo", "E-mail" etc.) */
+.input-field::placeholder {
+    color: #888;
+    font-size: 1em;
+}
+
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: var(--letter);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    /* transition: background-color 5s ease; */
+    text-decoration: none; /* Remover sublinhado do link */
+    box-shadow: var(--primary-color) 0 0 12px 2px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    box-shadow: var(--secondary-color) 0 0 20px 3px;
+    color: #e7d5ff;
+    /* text-transform: uppercase; */
+    /* transition: background-color 0.1s ease, box-shadow 0.1s ease; */
+    /* transform: translateY(-4px); */
+    transform: translate(3px, -4px);
+}

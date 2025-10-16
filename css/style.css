@@ -13,6 +13,7 @@ body {
 :root {
     --primary-color: #5848a9;
     --secondary-color: #7c6ff5;
+    --secundary-color2: #6c5ce7;
     --background-color: #C6BEEF;
     --text-color: #333;
     --border-radius: 8px;
@@ -49,5 +50,5 @@ body {
     box-shadow: 0 4px 12px var(--detail-black-bluish);
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
